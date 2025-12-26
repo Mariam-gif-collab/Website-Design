@@ -43,7 +43,7 @@ header .wrapper {
 
 header .wrapper .logo {
     flex-grow: 2;
-    color: var(--contrast-color);
+    
  
 }
 
@@ -81,6 +81,7 @@ header .wrapper nav a:hover {
  line-height: 1.6;
     height: 100%;
     width: 50%;
+    
 }
 .hero .maincontent h2 {
     font-size: 4vmax;
@@ -89,6 +90,68 @@ header .wrapper nav a:hover {
 }
 .imgmob{
     width: 40%;
-    
-}
+    min-height: 400px;
+    margin-top: 2em;
+    animation: slideInUp 2s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    position: relative;
 
+}
+.hero .btn {
+    display:flex;
+    gap: 20px;
+  
+}
+ button {
+  border: none;
+  padding: 1em 1.5em;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+ button:hover {
+  background-color: var(--contrast-color);
+  color: var(--main-white);
+  box-shadow: rgba(249, 249, 250, 0.728) 0px 7px 29px 0px;
+}
+.btnemp {
+  background-color: transparent;
+  color: var(--main-white);
+  border: 2px solid var(--contrast-color);
+}
+.btnfill {
+  background-color: var(--contrast-color);
+  color: var(--main-white);
+}
+@keyframes slideInUp {
+  from {
+    transform: translate3d(0, 25%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 10%, 0);
+  }
+}
+.main2 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--main-color);
+    background-color: var(--main-white);
+}
+.main2 h2 {
+    font-size: 4vmax;
+    margin-top:-100px;
+}
+.main2 .wrapper{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
