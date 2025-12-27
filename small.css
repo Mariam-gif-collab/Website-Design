@@ -29,3 +29,20 @@ button {
   font-size: 18px;
   padding: 10px 20px;
 }
+.main2 {
+    height: auto;
+    width: 100vw;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+.main2 .wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align:center; 
+ }
+ .main2 .wrapper .content2 {
+    width: 90%;
+    padding: 0 2em;
+    text-align: justify;}
