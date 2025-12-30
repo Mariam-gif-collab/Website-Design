@@ -47,4 +47,18 @@ img {
   min-width:300px;
   margin-top:1.5em;
 }
+/* ////FOOTER START//// */
+.footer .wrapper {
+  flex-wrap: wrap;
+}
+
+.footer .wrapper .columns {
+  gap: 10px;
+  margin-right: 3em;
+}
+
+.credits p {
+  font-size: 1.5em;
+}
+
 

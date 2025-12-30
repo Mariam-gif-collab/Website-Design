@@ -88,3 +88,28 @@ button {
     width: 80%;
     margin-top: 1.5em;
 }
+/* ////CONTACT SECTION START//// */
+.contactus .wrapper .contact {
+    flex-direction: column;
+}
+
+.contactus .wrapper .contact .form {
+    width: 100%;
+}
+
+.contactus .wrapper .contact .contactinfo {
+    width: 100%;
+}
+
+/* ////CONTACT SECTION END//// */
+
+/* ////FOOTER START//// */
+.footer .wrapper {
+    gap: 4em;
+}
+
+.credits p {
+    text-align: center;
+}
+
+/* ////FOOTER END//// */
